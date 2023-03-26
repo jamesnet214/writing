@@ -11,7 +11,7 @@
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <TextBlock Text="KakaoWindow"/>
+                        <TextBlock Text="Main"/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

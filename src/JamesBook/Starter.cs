@@ -13,6 +13,7 @@ namespace JamesBook
         private static void Main(string[] args)
         {
             _ = new App()
+                .AddInversionModule<ViewModules>()
                 .AddWireDataContext<WireDataContext>()
                 .Run();
         }
